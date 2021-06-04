@@ -50,7 +50,7 @@ table {
     padding:0;
     margin:0;
 }
-
+/*General Styles*/
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,7 +69,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/*Heading Section Styles*/
+/*Heading Section Styles for index and about*/
 nav {
     display:flex;
     flex-direction:row;
@@ -97,7 +97,7 @@ nav a{
     color:black;
     line-height: 1.4;
  }
-/*Top Section Styles index and about*/
+/*Top Section Styles for index and about*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +112,7 @@ nav a{
     padding-bottom: 2%;  
     margin-top:2%;
 }
-/*Middle Section Styles index*/
+/*Middle Section Styles for index*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -230,7 +230,7 @@ nav a{
     justify-content: center;
 }
 
-/*Bottom Section Styles index*/
+/*Bottom Section Styles for index*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -244,11 +244,11 @@ nav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-/*Top Section Styles about*/
+/*Top Section Styles for about*/
 .top-content .about {
     margin:2%
 }
-/*Middle Section Images Styles about*/
+/*Middle Section Images Styles for about*/
 .main-content{
     display:flex;
     flex-flow:row wrap;
@@ -256,7 +256,8 @@ nav a{
 }
 .strategy {
     width:45%;
-    margin:2.5%;
+    margin:2% 2% 5% 2%;
+
     border-bottom:1px dashed black;
 }
 .strategy h2 {
@@ -271,7 +272,7 @@ nav a{
     margin:4% 0 8% 0;
     padding:1%;
 }
-/*Bottom Section Styles about*/
+/*Bottom Section Styles for about*/
 .bottom {
     display:flex;
     flex-direction:row;
@@ -279,7 +280,7 @@ nav a{
     margin:2%;
     
 }
-/*Footer Section Styles*/
+/*Footer Section for Styles for index and about*/
 footer {
     width: 100%;
     background: black;
