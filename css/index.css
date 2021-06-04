@@ -70,7 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*Heading Section Styles*/
+nav {
+    display:flex;
+    flex-direction:row;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.logo {
+    display:flex;
+    align-items:center;
+}
+.menu {
+    display:flex;
+    align-items:flex-end;
+     
+}
+.link {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    margin-left:30%
+}
+/*Top Section Styles*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +100,17 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+nav a{
+   text-decoration:none; 
+   color:black;
+   line-height: 1.4;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/*Middle Section Styles*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +137,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +151,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*Footer Section Styles*/
 footer {
     width: 100%;
     background: black;
