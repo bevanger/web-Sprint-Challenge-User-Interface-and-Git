@@ -28,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -49,6 +46,9 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
+    padding:0;
+    margin:0;
 }
 
 html, body {
